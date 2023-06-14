@@ -14,10 +14,6 @@ public:
     const std::string getUserLogin() const;
     std::string getUserPassword() const;
 
-    /*void operator<(User other) {
-        _login < other._login;
-    }*/
-
     ~User() = default;
 };
 
