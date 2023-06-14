@@ -3,7 +3,6 @@
 //Создание пользователя с заданными параметрами
 User::User(const std::string& login, const std::string& password) : _login(login), _password(password)
 {
-
 }
 
 //Возврат логина пользователя
